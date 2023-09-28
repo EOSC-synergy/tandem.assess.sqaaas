@@ -5,8 +5,8 @@ config:
       branch: release/1.7.11
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/TEAR-ERC/tandem:
-      branch: main
-      repo: https://github.com/TEAR-ERC/tandem
+      branch: thomas/cff
+      repo: https://github.com/TEAR-ERC/tandem/
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
@@ -15,48 +15,54 @@ sqa_criteria:
     repos:
       github.com/TEAR-ERC/tandem git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-dandelion-tang.sh
-        container: qc.acc_grumpy-auburn-bobcat
+        - /usr/bin/env sh .sqa/script.muggy-olivine-sheep.sh
+        container: qc.acc_skimpy-viridian-mammoth
   QC.Doc:
     repos:
       github.com/TEAR-ERC/tandem find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-violet-mongoose.sh
-        container: qc.doc_chummy-khaki-mole
+        - /usr/bin/env sh .sqa/script.slaphappy-cerise-moth.sh
+        container: qc.doc_pasty-teal-turtle
       github.com/TEAR-ERC/tandem git:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-beige-ray.sh
-        container: qc.doc_skimpy-white-chipmunk
+        - /usr/bin/env sh .sqa/script.dorky-red-dugong.sh
+        container: qc.doc_homey-taupe-beaver
       github.com/TEAR-ERC/tandem markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-eggplant-bear.sh
-        container: qc.doc_sloppy-violet-fossa
+        - /usr/bin/env sh .sqa/script.squeaky-azure-rattlesnake.sh
+        container: qc.doc_craggy-lavender-robin
       github.com/TEAR-ERC/tandem restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-rust-civet.sh
-        container: qc.doc_skanky-copper-quoll
+        - /usr/bin/env sh .sqa/script.skanky-cream-cichlid.sh
+        container: qc.doc_wheezy-alizarin-birman
   QC.Lic:
     repos:
       github.com/TEAR-ERC/tandem licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-asparagus-giraffe.sh
-        container: qc.lic_beady-scarlet-turkey
+        - /usr/bin/env sh .sqa/script.homey-thistle-tarsier.sh
+        container: qc.lic_gummy-brown-goose
+  QC.Met:
+    repos:
+      github.com/TEAR-ERC/tandem cff-converter-python:
+        commands:
+        - /usr/bin/env sh .sqa/script.breezy-salmon-worm.sh
+        container: qc.met_paltry-ivory-antelope
   QC.Sec:
     repos:
       github.com/TEAR-ERC/tandem bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-smalt-badger.sh
-        container: qc.sec_ugly-pink-peccary
+        - /usr/bin/env sh .sqa/script.messy-white-insect.sh
+        container: qc.sec_homey-cream-emu
   QC.Sty:
     repos:
       github.com/TEAR-ERC/tandem flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-persimmon-gibbon.sh
-        container: qc.sty_shaky-blue-ocelot
+        - /usr/bin/env sh .sqa/script.cloudy-cornflower-sheepdog.sh
+        container: qc.sty_dorky-coral-dunker
   QC.Ver:
     repos:
       github.com/TEAR-ERC/tandem get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-blue-collie.sh
-        container: qc.ver_flaky-teal-civet
+        - /usr/bin/env sh .sqa/script.gloppy-wheat-crane.sh
+        container: qc.ver_leaky-goldenrod-echidna
 timeout: 5400
