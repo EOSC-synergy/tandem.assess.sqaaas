@@ -5,8 +5,8 @@ config:
       branch: release/1.7.11
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/TEAR-ERC/tandem:
-      branch: thomas/cff
-      repo: https://github.com/TEAR-ERC/tandem/
+      branch: main
+      repo: https://github.com/TEAR-ERC/tandem
 environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
@@ -15,54 +15,48 @@ sqa_criteria:
     repos:
       github.com/TEAR-ERC/tandem git:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-lilac-mole.sh
-        container: qc.acc_crappy-apricot-tiger
+        - /usr/bin/env sh .sqa/script.sickly-apricot-zebra.sh
+        container: qc.acc_muzzy-purple-argentino
   QC.Doc:
     repos:
       github.com/TEAR-ERC/tandem find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-plum-clam.sh
-        container: qc.doc_muggy-jade-chicken
+        - /usr/bin/env sh .sqa/script.sickly-rust-toad.sh
+        container: qc.doc_tacky-sapphire-frigatebird
       github.com/TEAR-ERC/tandem git:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-maroon-civet.sh
-        container: qc.doc_flimsy-flax-bullfrog
+        - /usr/bin/env sh .sqa/script.freaky-auburn-cuscus.sh
+        container: qc.doc_snazzy-vermilion-retriever
       github.com/TEAR-ERC/tandem markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-orange-coral.sh
-        container: qc.doc_greasy-viridian-badger
+        - /usr/bin/env sh .sqa/script.scummy-burgundy-dogfish.sh
+        container: qc.doc_zippy-cerulean-rottweiler
       github.com/TEAR-ERC/tandem restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-razzmatazz-rattlesnake.sh
-        container: qc.doc_sunny-apricot-quoll
+        - /usr/bin/env sh .sqa/script.cranky-tan-crane.sh
+        container: qc.doc_thirsty-viridian-chameleon
   QC.Lic:
     repos:
       github.com/TEAR-ERC/tandem licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-olive-spoonbill.sh
-        container: qc.lic_silly-cobalt-snake
-  QC.Met:
-    repos:
-      github.com/TEAR-ERC/tandem cff-converter-python:
-        commands:
-        - /usr/bin/env sh .sqa/script.scaly-black-budgerigar.sh
-        container: qc.met_sloppy-cardinal-barracuda
+        - /usr/bin/env sh .sqa/script.cloudy-razzmatazz-wolfhound.sh
+        container: qc.lic_snazzy-black-russel
   QC.Sec:
     repos:
       github.com/TEAR-ERC/tandem bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-cinnamon-chameleon.sh
-        container: qc.sec_wheezy-cream-corgi
+        - /usr/bin/env sh .sqa/script.gimpy-emerald-ostrich.sh
+        container: qc.sec_woozy-maroon-eel
   QC.Sty:
     repos:
       github.com/TEAR-ERC/tandem flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-dandelion-binturong.sh
-        container: qc.sty_lousy-cinnamon-zebu
+        - /usr/bin/env sh .sqa/script.nerdy-cyan-toad.sh
+        container: qc.sty_wheezy-ochre-coral
   QC.Ver:
     repos:
       github.com/TEAR-ERC/tandem get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-auburn-crocodile.sh
-        container: qc.ver_hazy-russet-mongrel
+        - /usr/bin/env sh .sqa/script.leaky-bistre-catfish.sh
+        container: qc.ver_hazy-coral-molly
 timeout: 5400
