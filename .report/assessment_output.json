@@ -2059,23 +2059,23 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "k_WnKI-OQ0Cv4HZif62QDA",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/k_WnKI-OQ0Cv4HZif62QDA",
-                "createdAt": "2024-01-16T12:14:09.140483223Z",
+                "entityId": "OobowGDbQ-WtHtTQQ8Leqw",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/OobowGDbQ-WtHtTQQ8Leqw",
+                "createdAt": "2024-01-16T12:14:47.815367384Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/k_WnKI-OQ0Cv4HZif62QDA/image",
+                "image": "https://api.eu.badgr.io/public/assertions/OobowGDbQ-WtHtTQQ8Leqw/image",
                 "recipient": {
-                    "identity": "sha256$1e34aad0f52d4a13180bf668b1728c6122b51ad7f309b84e2db062f608937167",
+                    "identity": "sha256$3ec557b90e307ae8e2319b3e2573b9b118c5f3ca67fbe22fed7cd825780c5cc8",
                     "hashed": true,
                     "type": "url",
-                    "salt": "1VtINWPLD2AcYjkQ",
+                    "salt": "miT0NkVPcxW8szSG",
                     "plaintextIdentity": "https://github.com/TEAR-ERC/tandem"
                 },
-                "issuedOn": "2024-01-16T12:14:09.140487813Z",
+                "issuedOn": "2024-01-16T12:14:47.815369688Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/TEAR-ERC/tandem (commit: d524624d8648908345a0f6e7e323fe8893421a1d, branch/tag: thomas/cff)",
                 "evidence": [
                     {
@@ -2093,7 +2093,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/k_WnKI-OQ0Cv4HZif62QDA"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/OobowGDbQ-WtHtTQQ8Leqw"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -2105,10 +2105,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-k_WnKI-OQ0Cv4HZif62QDA.png"
+                "imagePath": "uploads/badges/assertion-OobowGDbQ-WtHtTQQ8Leqw.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/k_WnKI-OQ0Cv4HZif62QDA?identity__url=https%3A//github.com/EOSC-synergy/tandem.assess.sqaaas/commit/f1775c633b7644c96f3064b470d13ef872e1f13c\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/k_WnKI-OQ0Cv4HZif62QDA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2Fk_WnKI-OQ0Cv4HZif62QDA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ftandem.assess.sqaaas%2Fcommit%2Ff1775c633b7644c96f3064b470d13ef872e1f13c&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ftandem.assess.sqaaas%2Fcommit%2Ff1775c633b7644c96f3064b470d13ef872e1f13c"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/OobowGDbQ-WtHtTQQ8Leqw?identity__url=https%3A//github.com/EOSC-synergy/tandem.assess.sqaaas/commit/f1775c633b7644c96f3064b470d13ef872e1f13c\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/OobowGDbQ-WtHtTQQ8Leqw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FOobowGDbQ-WtHtTQQ8Leqw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ftandem.assess.sqaaas%2Fcommit%2Ff1775c633b7644c96f3064b470d13ef872e1f13c&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Ftandem.assess.sqaaas%2Fcommit%2Ff1775c633b7644c96f3064b470d13ef872e1f13c"
         }
     }
 }
